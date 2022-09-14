@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "mythic-altar-352923-tfstate"
     prefix = "env/dev"
   }
 }
